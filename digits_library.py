@@ -5,6 +5,7 @@ operations = {
     '/': 'divided by',
     '=': 'equals'
 }
+
 digits = [     #{𝑥|𝑥∈N_0 ∧ 𝑥≤9}, N_0 is {N ∧ {0}}
     "",        #zero=we don't write anything !!!!!!SPECIAL CASE
     "one",
@@ -16,7 +17,7 @@ digits = [     #{𝑥|𝑥∈N_0 ∧ 𝑥≤9}, N_0 is {N ∧ {0}}
     "seven",
     "eight",
     "nine"
-];
+]
 
 teens = [       #{𝑦|𝑦∈ℕ ∧ 𝑦≥10 ∧ 𝑦≤19}
     "ten",
@@ -29,7 +30,7 @@ teens = [       #{𝑦|𝑦∈ℕ ∧ 𝑦≥10 ∧ 𝑦≤19}
     "seventeen",
     "eighteen",
     "nineteen"
-];
+]
 tens = [        #{𝑧|𝑧∈ℕ ∧ 𝑧|10 ∧ 𝑧≥20 ∧ 𝑧≤100}
     "twenty",
     "thirty",
@@ -53,4 +54,4 @@ illions = [     #this list can be infinitely long
     "septillion",
     "octillion",
     "nonillion"
-];
+]
