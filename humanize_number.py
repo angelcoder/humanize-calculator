@@ -45,7 +45,7 @@ def triple2words(triple, index, status, status2):
     elif (int(triple[1]) == 0):
         triple_name = f"{triple_name}{dl.digits[int(triple[2])]}"
 
-    return add_illion_suffix(triple_name, index)
+    return add_illion_suffix(triple_name, index).strip()
 
 
 def number2words(number):
